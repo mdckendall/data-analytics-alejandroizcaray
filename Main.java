@@ -37,6 +37,7 @@ class Main {
           System.out.println(Is);
         }
         if (input == 5) {
+          scanner.close();
           break;
         }
       }
