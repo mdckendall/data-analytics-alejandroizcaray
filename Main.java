@@ -7,14 +7,14 @@ class Main {
   public static void main(String[] args){
     int input = 0;
     ArrayList<String> arrayList = new ArrayList<>();
-
+    Scanner scanner = new Scanner(System.in);
     while (input != 5) {
       System.out.println("Press 1 to learn about salary.");
       System.out.println("Press 2 to learn about the job.");
       System.out.println("Press 3 to learn about demand.");
       System.out.println("Press 4 to view current students.");
       System.out.println("Press 5 to quit.");
-      Scanner scanner = new Scanner(System.in);
+      
       input = scanner.nextInt();
       if (input == 1) {
         System.out.println("$98,345 average salary in South Florida!");
@@ -37,10 +37,9 @@ class Main {
           System.out.println(Is);
         }
         if (input == 5) {
-          scanner.close();
           break;
         }
       }
-    }
+    } scanner.close();
   }
 }
