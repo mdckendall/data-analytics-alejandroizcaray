@@ -17,7 +17,7 @@ class Main {
       Scanner scanner = new Scanner(System.in);
       input = scanner.nextInt();
       if (input == 1) {
-        System.out.println("$98,345 average salary.");
+        System.out.println("$98,345 average salary in South Florida!");
       } else if (input == 2) {
         System.out.println("US News - 100 Best Jobs!");
       } else if (input == 3) {
